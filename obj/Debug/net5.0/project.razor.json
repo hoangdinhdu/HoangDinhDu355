@@ -15619,6 +15619,26 @@
   "RootNamespace": "HoangDinhDu355",
   "Documents": [
     {
+      "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\HDD0355\\Create.cshtml",
+      "TargetPath": "Views\\HDD0355\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\HDD0355\\Delete.cshtml",
+      "TargetPath": "Views\\HDD0355\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\HDD0355\\Edit.cshtml",
+      "TargetPath": "Views\\HDD0355\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\HDD0355\\Index.cshtml",
+      "TargetPath": "Views\\HDD0355\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15671,11 @@
     {
       "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\CompanyHDD355\\Edit.cshtml",
       "TargetPath": "Views\\CompanyHDD355\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangDinhDu355\\Views\\HDD0355\\Details.cshtml",
+      "TargetPath": "Views\\HDD0355\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

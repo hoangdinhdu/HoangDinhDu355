@@ -1,0 +1,41 @@
+@model IEnumerable<HoangDinhDu355.Models.HDD0355>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HDDname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HDDGender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HDDname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HDDGender)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.HDDId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.HDDId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.HDDId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

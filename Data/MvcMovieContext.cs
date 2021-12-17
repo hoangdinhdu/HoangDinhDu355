@@ -13,4 +13,6 @@ using HoangDinhDu355.Models;
         }
 
         public DbSet<HoangDinhDu355.Models.CompanyHDD355> CompanyHDD355 { get; set; }
+
+        public DbSet<HoangDinhDu355.Models.HDD0355> HDD0355 { get; set; }
     }
