@@ -12,6 +12,7 @@ namespace HoangDinhDu355.Controllers
     public class CompanyHDD355Controller : Controller
     {
         private readonly MvcMovieContext _context;
+        StringProcessHDD355 strPro = new StringProcessHDD355();
 
         public CompanyHDD355Controller(MvcMovieContext context)
         {
@@ -57,6 +58,7 @@ namespace HoangDinhDu355.Controllers
         {
             if (ModelState.IsValid)
             {
+                companyHDD355.CompanyName =  strPro.LowerToUpper(companyHDD355.CompanyName);
                 _context.Add(companyHDD355);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
